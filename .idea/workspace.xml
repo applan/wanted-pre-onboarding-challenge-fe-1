@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c5785d06-a799-486b-a020-6eb8ecfac168" name="Changes" comment="2022-08-09&#10;&#10;create-react-app 을 이용해서 react Project 생성&#10;-&gt; npx create-react-app my-app --template typescript 명령으로 생성 변경" />
+    <list default="true" id="c5785d06-a799-486b-a020-6eb8ecfac168" name="Changes" comment="2022-08-09&#10;&#10;npx create-react-app my-app --template typescript 명령으로 타임스크립스 사용 React 프로젝트 생성">
+      <change beforePath="$PROJECT_DIR$/src/App.test.tsx" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -28,6 +30,7 @@
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "/Users/minsu/Desktop/STUDY/프리온보딩/wanted-pre-onboarding-challenge-fe-1/node_modules/typescript/lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -45,6 +48,7 @@
       <option name="presentableId" value="Default" />
       <updated>1660054497772</updated>
       <workItem from="1660054498894" duration="2845000" />
+      <workItem from="1660057349794" duration="363000" />
     </task>
     <task id="LOCAL-00001" summary="2022-08-09&#10;&#10;create-react-app 을 이용해서 react Project 생성">
       <created>1660055342712</created>
@@ -60,7 +64,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660056559832</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="2022-08-09&#10;&#10;npx create-react-app my-app --template typescript 명령으로 타임스크립스 사용 React 프로젝트 생성">
+      <created>1660057444217</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1660057444217</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -80,6 +91,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="2022-08-09&#10;&#10;create-react-app 을 이용해서 react Project 생성" />
     <MESSAGE value="2022-08-09&#10;&#10;create-react-app 을 이용해서 react Project 생성&#10;-&gt; npx create-react-app my-app --template typescript 명령으로 생성 변경" />
-    <option name="LAST_COMMIT_MESSAGE" value="2022-08-09&#10;&#10;create-react-app 을 이용해서 react Project 생성&#10;-&gt; npx create-react-app my-app --template typescript 명령으로 생성 변경" />
+    <MESSAGE value="2022-08-09&#10;&#10;npx create-react-app my-app --template typescript 명령으로 타임스크립스 사용 React 프로젝트 생성" />
+    <option name="LAST_COMMIT_MESSAGE" value="2022-08-09&#10;&#10;npx create-react-app my-app --template typescript 명령으로 타임스크립스 사용 React 프로젝트 생성" />
   </component>
 </project>
