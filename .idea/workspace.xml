@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="c5785d06-a799-486b-a020-6eb8ecfac168" name="Changes" comment="2022-08-09&#10;&#10;App.test.tsx 제거">
-      <change beforePath="$PROJECT_DIR$/installManual/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/installManual/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package_bf.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,15 +32,20 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/minsu/Desktop/STUDY/프리온보딩/wanted-pre-onboarding-challenge-fe-1",
+    "last_opened_file_path": "D:/Dev/Self/WS/wanted-pre-onboarding-challenge-fe-1",
     "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "ts.external.directory.path": "/Users/minsu/Desktop/STUDY/프리온보딩/wanted-pre-onboarding-challenge-fe-1/node_modules/typescript/lib",
+    "ts.external.directory.path": "D:\\Dev\\Self\\WS\\wanted-pre-onboarding-challenge-fe-1\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Dev\Self\WS\wanted-pre-onboarding-challenge-fe-1" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/installManual" />
     </key>
@@ -49,6 +60,7 @@
       <updated>1660054497772</updated>
       <workItem from="1660054498894" duration="2845000" />
       <workItem from="1660057349794" duration="502000" />
+      <workItem from="1660282156110" duration="2370000" />
     </task>
     <task id="LOCAL-00001" summary="2022-08-09&#10;&#10;create-react-app 을 이용해서 react Project 생성">
       <created>1660055342712</created>
