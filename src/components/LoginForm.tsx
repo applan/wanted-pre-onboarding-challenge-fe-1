@@ -2,10 +2,12 @@ import {Button, Form} from "react-bootstrap";
 import React, {useState} from "react";
 import {User} from "../types/Types";
 import {loginValidation} from "../validataion/Validation";
+import {AuthService} from "../service/AuthService";
+import {toast} from 'react-toastify'
 
 export const LoginForm = () => {
 
-    const [loginForm, setLoginForm] = useState<User | null>(null);
+    const [loginForm, setLoginForm] = useState<User>({});
     const [loading, setLoading] = useState<boolean>(false);
 
     /**
@@ -29,9 +31,19 @@ export const LoginForm = () => {
         setLoading(true);
         let isPass = loginValidation(loginForm);
         if(isPass) {
-
+            AuthService.login(loginForm)
+                .then((res) => {
+                    console.log(res);
+                })
+                .catch((err) => {
+                    toast.error(err?.response?.data?.details);
+                })
+                .finally(() => {
+                    setLoading(false);
+                })
+        }else{
+            setLoading(false);
         }
-        setLoading(false);
     }
 
     return (
