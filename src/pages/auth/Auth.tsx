@@ -1,8 +1,17 @@
 import sideImage from '../../images/sideImage-Onboarding.png';
 import {Card} from 'react-bootstrap';
 import {AuthForm} from "../../components/AuthForm";
+import {useEffect} from "react";
+import {useNavigate} from "react-router-dom";
 
 function Login() {
+
+    let navigate = useNavigate();
+    useEffect(() => {
+        const token = localStorage.getItem("token");
+        console.log(token);
+        if(token != "" && token != "null" && token != null) navigate("/dashBoard");
+    });
 
     return (
         <section className="vh-100">

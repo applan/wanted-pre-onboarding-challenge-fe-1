@@ -1,4 +1,5 @@
 import {Button, Form} from "react-bootstrap";
+import { useNavigate } from 'react-router-dom';
 import React, {useState} from "react";
 import {User} from "../types/Types";
 import {loginValidation} from "../validataion/Validation";
@@ -7,6 +8,7 @@ import {toast} from 'react-toastify'
 
 export const AuthForm = () => {
 
+    let navigate = useNavigate();
     const [actionType, setActionType] = useState<string>("");
     const [authForm, setAuthForm] = useState<User>({});
     const [loading, setLoading] = useState<boolean>(false);
@@ -37,7 +39,9 @@ export const AuthForm = () => {
                     .then((res) => {
                         toast.success(res?.data?.message);
                         let token = res?.data?.token;
-                        localStorage.setItem("auth_token", token);
+                        localStorage.setItem("token", token);
+                        navigate("/dashBoard");
+                        window.location.reload();
                     })
                     .catch((err) => {
                         toast.error(err?.response?.data?.details);
