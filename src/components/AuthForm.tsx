@@ -37,7 +37,7 @@ export const AuthForm = () => {
                     .then((res) => {
                         toast.success(res?.data?.message);
                         let token = res?.data?.token;
-                        console.log(token);
+                        localStorage.setItem("auth_token", token);
                     })
                     .catch((err) => {
                         toast.error(err?.response?.data?.details);
@@ -49,8 +49,6 @@ export const AuthForm = () => {
                 AuthService.signUp(authForm)
                     .then((res) => {
                         toast.success(res?.data?.message);
-                        let token = res?.data?.token;
-                        console.log(token);
                     })
                     .catch((err) => {
                         toast.error(err?.response?.data?.details);
