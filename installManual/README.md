@@ -15,4 +15,5 @@
 1. typescript (npm install typescript)
 2. babel (npm install babel)
 3. bootstrap (npm install react-bootstrap bootstrap)
+4. react-alert ( npm install react-alert )
 ```

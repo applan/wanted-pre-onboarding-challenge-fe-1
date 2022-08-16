@@ -1,21 +1,27 @@
 import React, {useState} from 'react';
 import sideImage from '../../images/sideImage-Onboarding.png';
-import {Card, Form, Button} from 'react-bootstrap'
+import {User} from '../../types/Types'
+import {Card, Form, Button} from 'react-bootstrap';
+import {loginValidation} from "../../validataion/Validation";
 
 function Login() {
 
-    const [loginForm, setLoginForm] = useState({
-        email: "",
-        password: ""
-    })
-    // const [errMsg, setErrMsg] = useState<String>("");
+    const [loginForm, setLoginForm] = useState<User | null>(null);
+    const [loading, setLoading] = useState<boolean>(false);
 
-    const onChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    const handleChange = (e: React.ChangeEvent<HTMLInputElement>): void => {
         const {name, value} = e.target;
         setLoginForm({
             ...loginForm,
             [name]: value
-        })
+        });
+    }
+
+    const handleSubmit = (e: any) => {
+        e.preventDefault();
+        setLoading(true);
+        loginValidation(loginForm);
+        setLoading(false);
     }
 
     return (
@@ -28,22 +34,28 @@ function Login() {
                             <Card.Body className="row justify-content-center align-items-center">
                                 <div className="col-8 col-xl-6">
                                     <Card.Title className="text-center mb-4 fw-bold">LOGIN</Card.Title>
-                                    <Form>
+                                    <Form onSubmit={handleSubmit}>
                                         <Form.Group className="mb-4">
                                             <Form.Label>Email</Form.Label>
-                                            <input className="form-control" type="email" name="email" onChange={onChange}/>
+                                            <input className="form-control" type="email" value={loginForm?.email || ''} name="email" onChange={handleChange}/>
                                         </Form.Group>
 
                                         <Form.Group className="mb-5">
                                             <Form.Label>Password</Form.Label>
-                                            <input className="form-control" type="password" name="password" onChange={onChange}/>
+                                            <input className="form-control" type="password" value={loginForm?.password || ''} name="password" onChange={handleChange}/>
                                         </Form.Group>
 
                                         <div className="text-end mb-4">
-                                            <Button className="me-2" variant="secondary" type="submit">
+                                            <Button className="me-2" variant="secondary" type="submit" disabled={loading}>
+                                                {loading && (
+                                                    <span className="spinner-border spinner-border-sm"></span>
+                                                )}
                                                 SignIn
                                             </Button>
-                                            <Button variant="primary" type="submit">
+                                            <Button variant="primary" type="submit" disabled={loading}>
+                                                {loading && (
+                                                    <span className="spinner-border spinner-border-sm"></span>
+                                                )}
                                                 Login
                                             </Button>
                                         </div>
