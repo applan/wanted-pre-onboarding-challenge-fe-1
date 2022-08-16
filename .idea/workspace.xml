@@ -5,20 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c5785d06-a799-486b-a020-6eb8ecfac168" name="Changes" comment="2022-08-17&#10;&#10;1. login validation 구현&#10;2. toast 이용하여 validation 실행 후 잘못되면 메시지 표기">
-      <change afterPath="$PROJECT_DIR$/src/consts/Consts.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/types/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/types/Types.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/validataion/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/validataion/Validation.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/consts/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/installManual/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/installManual/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/auth/Login.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/auth/Login.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +41,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/Dev/Self/WS/wanted-pre-onboarding-challenge-fe-1-api",
+    "last_opened_file_path": "D:/Dev/Self/WS/wanted-pre-onboarding-challenge-fe-1/src/consts",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -65,6 +53,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Dev\Self\WS\wanted-pre-onboarding-challenge-fe-1\src\consts" />
       <recent name="D:\Dev\Self\WS\wanted-pre-onboarding-challenge-fe-1\public" />
       <recent name="D:\Dev\Self\WS\wanted-pre-onboarding-challenge-fe-1" />
     </key>
@@ -86,7 +75,7 @@
       <workItem from="1660057349794" duration="502000" />
       <workItem from="1660282156110" duration="26463000" />
       <workItem from="1660580881385" duration="595000" />
-      <workItem from="1660656181772" duration="9203000" />
+      <workItem from="1660656181772" duration="9263000" />
     </task>
     <task id="LOCAL-00001" summary="2022-08-09&#10;&#10;create-react-app 을 이용해서 react Project 생성">
       <created>1660055342712</created>
@@ -137,7 +126,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660325510889</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="2022-08-17&#10;&#10;1. login validation 구현&#10;2. toast 이용하여 validation 실행 후 잘못되면 메시지 표기">
+      <created>1660666111101</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1660666111101</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
