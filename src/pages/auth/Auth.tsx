@@ -8,6 +8,7 @@ function Login() {
 
     let navigate = useNavigate();
     useEffect(() => {
+        // 페이지 로딩 전 토큰 확인해서 존재하면 / 경로로 이동
         const token = localStorage.getItem("token");
         console.log(token);
         if(token != "" && token != "null" && token != null) navigate("/");
