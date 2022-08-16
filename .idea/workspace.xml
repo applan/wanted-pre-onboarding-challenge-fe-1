@@ -4,15 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c5785d06-a799-486b-a020-6eb8ecfac168" name="Changes" comment="2022-08-17&#10;&#10;Consts.tsx - 주석 추가&#10;Login.tsx - LoginForm 분리 &#10;LoginForm.tsx - LoginForm 컴포넌트 분리&#10;Validation.tsx - 주석 정리 및 유효성 결과 return">
-      <change afterPath="$PROJECT_DIR$/src/service/AuthService.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/AxiosClientUtils.tsx" afterDir="false" />
+    <list default="true" id="c5785d06-a799-486b-a020-6eb8ecfac168" name="Changes" comment="2022-08-17 로그인 구현">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/installManual/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/installManual/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/LoginForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/LoginForm.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/consts/Consts.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/consts/Consts.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/LoginForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AuthForm.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/auth/Login.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/auth/Auth.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/types/Types.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/types/Types.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -82,7 +78,7 @@
       <workItem from="1660057349794" duration="502000" />
       <workItem from="1660282156110" duration="26463000" />
       <workItem from="1660580881385" duration="595000" />
-      <workItem from="1660656181772" duration="14549000" />
+      <workItem from="1660656181772" duration="15760000" />
     </task>
     <task id="LOCAL-00001" summary="2022-08-09&#10;&#10;create-react-app 을 이용해서 react Project 생성">
       <created>1660055342712</created>
@@ -154,7 +150,56 @@
       <option name="project" value="LOCAL" />
       <updated>1660669850929</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="2022-08-17 API_URL 추가">
+      <created>1660673141641</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1660673141641</updated>
+    </task>
+    <task id="LOCAL-00012" summary="2022-08-17 axios 추가">
+      <created>1660673166678</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1660673166678</updated>
+    </task>
+    <task id="LOCAL-00013" summary="2022-08-17">
+      <created>1660673177112</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1660673177112</updated>
+    </task>
+    <task id="LOCAL-00014" summary="2022-08-17 toastify, axios 패키지 설치 추가 및 각 홈페이지 추가">
+      <created>1660673263000</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1660673263000</updated>
+    </task>
+    <task id="LOCAL-00015" summary="2022-08-17 Project Axios 클라이언트 생성 Util 추가">
+      <created>1660673302350</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1660673302350</updated>
+    </task>
+    <task id="LOCAL-00016" summary="2022-08-17 Auth 비즈니스 로직 추가">
+      <created>1660673323507</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1660673323507</updated>
+    </task>
+    <task id="LOCAL-00017" summary="2022-08-17 로그인 구현">
+      <created>1660673334592</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1660673334592</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -183,6 +228,13 @@
     <MESSAGE value="2022-08-17&#10;&#10;1. login validation 구현&#10;2. toast 이용하여 validation 실행 후 잘못되면 메시지 표기" />
     <MESSAGE value="2022-08-17&#10;&#10;1. consts README.md 추가" />
     <MESSAGE value="2022-08-17&#10;&#10;Consts.tsx - 주석 추가&#10;Login.tsx - LoginForm 분리 &#10;LoginForm.tsx - LoginForm 컴포넌트 분리&#10;Validation.tsx - 주석 정리 및 유효성 결과 return" />
-    <option name="LAST_COMMIT_MESSAGE" value="2022-08-17&#10;&#10;Consts.tsx - 주석 추가&#10;Login.tsx - LoginForm 분리 &#10;LoginForm.tsx - LoginForm 컴포넌트 분리&#10;Validation.tsx - 주석 정리 및 유효성 결과 return" />
+    <MESSAGE value="2022-08-17 API_URL 추가" />
+    <MESSAGE value="2022-08-17 axios 추가" />
+    <MESSAGE value="2022-08-17" />
+    <MESSAGE value="2022-08-17 toastify, axios 패키지 설치 추가 및 각 홈페이지 추가" />
+    <MESSAGE value="2022-08-17 Project Axios 클라이언트 생성 Util 추가" />
+    <MESSAGE value="2022-08-17 Auth 비즈니스 로직 추가" />
+    <MESSAGE value="2022-08-17 로그인 구현" />
+    <option name="LAST_COMMIT_MESSAGE" value="2022-08-17 로그인 구현" />
   </component>
 </project>

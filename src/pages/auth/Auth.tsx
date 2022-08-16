@@ -1,6 +1,6 @@
 import sideImage from '../../images/sideImage-Onboarding.png';
 import {Card} from 'react-bootstrap';
-import {LoginForm} from "../../components/LoginForm";
+import {AuthForm} from "../../components/AuthForm";
 
 function Login() {
 
@@ -14,7 +14,7 @@ function Login() {
                             <Card.Body className="row justify-content-center align-items-center">
                                 <div className="col-8 col-xl-6">
                                     <Card.Title className="text-center mb-4 fw-bold">LOGIN</Card.Title>
-                                    <LoginForm/>
+                                    <AuthForm/>
                                 </div>
                             </Card.Body>
                         </Card>

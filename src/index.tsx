@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import 'bootstrap/dist/css/bootstrap.css';
-import Login from './pages/auth/Login';
+import Auth from './pages/auth/Auth';
 import reportWebVitals from './reportWebVitals';
 import {ToastContainer} from "react-toastify";
 import 'react-toastify/dist/ReactToastify.css';
@@ -12,7 +12,7 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <React.StrictMode>
-    <Login />
+    <Auth/>
     <ToastContainer position="top-right" autoClose={3000}/>
   </React.StrictMode>
 );
