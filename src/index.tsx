@@ -2,19 +2,19 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import 'bootstrap/dist/css/bootstrap.css';
-import Auth from './pages/auth/Auth';
 import reportWebVitals from './reportWebVitals';
 import {ToastContainer} from "react-toastify";
 import 'react-toastify/dist/ReactToastify.css';
+import {Routers} from "./pages/Routers";
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
-  <React.StrictMode>
-    <Auth/>
-    <ToastContainer position="top-right" autoClose={3000}/>
-  </React.StrictMode>
+    <>
+        <Routers/>
+        <ToastContainer position="top-right" autoClose={3000}/>
+    </>
 );
 
 // If you want to start measuring performance in your app, pass a function
