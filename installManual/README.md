@@ -12,8 +12,9 @@
 
 ## 추가 설치한 패키지
 ```text
-1. typescript (npm install typescript)
-2. babel (npm install babel)
-3. bootstrap (npm install react-bootstrap bootstrap)
-4. react-alert ( npm install react-alert )
+1. typescript (npm install typescript) / https://www.typescriptlang.org/
+2. babel (npm install babel) / https://babeljs.io/docs/en/babel-preset-react
+3. bootstrap (npm install react-bootstrap bootstrap) / https://react-bootstrap.github.io/
+4. react-toastify ( npm install react-toastify ) / https://fkhadra.github.io/react-toastify/introduction
+5. axios (npm install axios) / https://axios-http.com/kr/docs/intro
 ```
