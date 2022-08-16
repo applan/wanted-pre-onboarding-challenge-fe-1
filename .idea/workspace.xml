@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c5785d06-a799-486b-a020-6eb8ecfac168" name="Changes" comment="2022-08-17&#10;&#10;1. login validation 구현&#10;2. toast 이용하여 validation 실행 후 잘못되면 메시지 표기">
-      <change afterPath="$PROJECT_DIR$/src/consts/README.md" afterDir="false" />
+    <list default="true" id="c5785d06-a799-486b-a020-6eb8ecfac168" name="Changes" comment="2022-08-17&#10;&#10;Consts.tsx - 주석 추가&#10;Login.tsx - LoginForm 분리 &#10;LoginForm.tsx - LoginForm 컴포넌트 분리&#10;Validation.tsx - 주석 정리 및 유효성 결과 return">
+      <change afterPath="$PROJECT_DIR$/src/components/LoginForm.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/consts/Consts.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/consts/Consts.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/auth/Login.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/auth/Login.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/validataion/Validation.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/validataion/Validation.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,9 +19,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="TypeScript JSX File" />
         <option value="JavaScript File" />
         <option value="TypeScript File" />
+        <option value="TypeScript JSX File" />
       </list>
     </option>
   </component>
@@ -75,7 +78,7 @@
       <workItem from="1660057349794" duration="502000" />
       <workItem from="1660282156110" duration="26463000" />
       <workItem from="1660580881385" duration="595000" />
-      <workItem from="1660656181772" duration="9263000" />
+      <workItem from="1660656181772" duration="11312000" />
     </task>
     <task id="LOCAL-00001" summary="2022-08-09&#10;&#10;create-react-app 을 이용해서 react Project 생성">
       <created>1660055342712</created>
@@ -133,7 +136,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660666111101</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="2022-08-17&#10;&#10;1. consts README.md 추가">
+      <created>1660666198993</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1660666198993</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -160,6 +170,8 @@
     <MESSAGE value="2022-08-12&#10;&#10;로그인 페이지 화면 구성 완료" />
     <MESSAGE value="2022-08-12&#10;&#10;ReadMe.md 수정" />
     <MESSAGE value="2022-08-17&#10;&#10;1. login validation 구현&#10;2. toast 이용하여 validation 실행 후 잘못되면 메시지 표기" />
-    <option name="LAST_COMMIT_MESSAGE" value="2022-08-17&#10;&#10;1. login validation 구현&#10;2. toast 이용하여 validation 실행 후 잘못되면 메시지 표기" />
+    <MESSAGE value="2022-08-17&#10;&#10;1. consts README.md 추가" />
+    <MESSAGE value="2022-08-17&#10;&#10;Consts.tsx - 주석 추가&#10;Login.tsx - LoginForm 분리 &#10;LoginForm.tsx - LoginForm 컴포넌트 분리&#10;Validation.tsx - 주석 정리 및 유효성 결과 return" />
+    <option name="LAST_COMMIT_MESSAGE" value="2022-08-17&#10;&#10;Consts.tsx - 주석 추가&#10;Login.tsx - LoginForm 분리 &#10;LoginForm.tsx - LoginForm 컴포넌트 분리&#10;Validation.tsx - 주석 정리 및 유효성 결과 return" />
   </component>
 </project>

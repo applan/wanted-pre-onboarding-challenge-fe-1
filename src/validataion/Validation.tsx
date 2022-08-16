@@ -2,13 +2,11 @@ import {User} from '../types/Types'
 import {PROJECT_REGEX} from "../consts/Consts";
 import {toast} from 'react-toastify'
 
-export const loginValidation = (values: User | null) => {
-    /**
-     * Email - Must
-     * - '@', '.'이 꼭 들어가야함.
-     * Password - Must
-     * - 8자 이상 입력
-     */
+/**
+ * 이메일, 비밀번호 유효성 체크 후 만족하지 못하는 결과인 경우 toast 이벤트 생성
+ * @param {User} values - 이메일, 비밀번호 정보를 가지고있는 데이터
+ */
+export const loginValidation = (values: User | null): boolean => {
     let errMsg = "";
     let isPass = false;
     if(values == null) {
@@ -26,7 +24,10 @@ export const loginValidation = (values: User | null) => {
             isPass = true;
         }
     }
+    // 유효성 체크 후 통과 못하는 경우
     if(!isPass) {
+        // error toast 생성
         toast.error(errMsg);
     }
+    return isPass;
 }
