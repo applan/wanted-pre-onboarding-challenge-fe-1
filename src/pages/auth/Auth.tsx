@@ -10,7 +10,7 @@ function Login() {
     useEffect(() => {
         const token = localStorage.getItem("token");
         console.log(token);
-        if(token != "" && token != "null" && token != null) navigate("/dashBoard");
+        if(token != "" && token != "null" && token != null) navigate("/");
     });
 
     return (

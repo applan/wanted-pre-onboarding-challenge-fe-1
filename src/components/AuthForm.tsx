@@ -40,7 +40,7 @@ export const AuthForm = () => {
                         toast.success(res?.data?.message);
                         let token = res?.data?.token;
                         localStorage.setItem("token", token);
-                        navigate("/dashBoard");
+                        navigate("/");
                         window.location.reload();
                     })
                     .catch((err) => {
