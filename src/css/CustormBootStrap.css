@@ -1,0 +1,26 @@
+.h-70 {
+    height : 70% !important;
+}
+.h-80 {
+    height : 80% !important;
+}
+.h-90 {
+    height : 90% !important;
+}
+
+.m-0 {
+    margin: 0px !important;
+}
+
+.resize-none {
+    resize : none !important;
+}
+
+.display-none {
+    display: none !important;
+}
+
+#myTodoListBox {
+    max-height: 350px;
+    overflow-y: scroll;
+}
