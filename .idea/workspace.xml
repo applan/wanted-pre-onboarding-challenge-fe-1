@@ -4,12 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c5785d06-a799-486b-a020-6eb8ecfac168" name="Changes" comment="2022-08-17 로그인 구현">
+    <list default="true" id="c5785d06-a799-486b-a020-6eb8ecfac168" name="Changes" comment="2022-08-19 Todo 페이지 추가">
+      <change afterPath="$PROJECT_DIR$/src/images/myProfile.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/todo/Todo.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/LoginForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AuthForm.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/auth/Login.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/auth/Auth.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/types/Types.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/types/Types.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +24,7 @@
         <option value="JavaScript File" />
         <option value="TypeScript File" />
         <option value="TypeScript JSX File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -44,7 +47,8 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/Dev/Self/WS/wanted-pre-onboarding-challenge-fe-1/src/consts",
+    "last_opened_file_path": "D:/Dev/Self/WS/wanted-pre-onboarding-challenge-fe-1/src/images",
+    "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -56,6 +60,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Dev\Self\WS\wanted-pre-onboarding-challenge-fe-1\src\images" />
       <recent name="D:\Dev\Self\WS\wanted-pre-onboarding-challenge-fe-1\src\consts" />
       <recent name="D:\Dev\Self\WS\wanted-pre-onboarding-challenge-fe-1\public" />
       <recent name="D:\Dev\Self\WS\wanted-pre-onboarding-challenge-fe-1" />
@@ -78,7 +83,8 @@
       <workItem from="1660057349794" duration="502000" />
       <workItem from="1660282156110" duration="26463000" />
       <workItem from="1660580881385" duration="595000" />
-      <workItem from="1660656181772" duration="15760000" />
+      <workItem from="1660656181772" duration="18119000" />
+      <workItem from="1660836632450" duration="12644000" />
     </task>
     <task id="LOCAL-00001" summary="2022-08-09&#10;&#10;create-react-app 을 이용해서 react Project 생성">
       <created>1660055342712</created>
@@ -199,7 +205,98 @@
       <option name="project" value="LOCAL" />
       <updated>1660673334592</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="2022-08-17 로그인, 회원가입 구현 -&gt; Login으로 시작한 파일 명을 Auth 로 변경">
+      <created>1660674388015</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1660674388015</updated>
+    </task>
+    <task id="LOCAL-00019" summary="2022-08-17 정상 로그인 완료 후 token 데이터 localStorage에 셋팅">
+      <created>1660674754755</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1660674754755</updated>
+    </task>
+    <task id="LOCAL-00020" summary="2022-08-17 교육 일정, 페이지 삭제 -&gt; TODO 로 변경">
+      <created>1660674873573</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1660674873573</updated>
+    </task>
+    <task id="LOCAL-00021" summary="2022-08-17 react-router-dom 설치">
+      <created>1660675246338</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1660675246338</updated>
+    </task>
+    <task id="LOCAL-00022" summary="2022-08-17 react-router-dom 셋팅">
+      <created>1660676136641</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1660676136641</updated>
+    </task>
+    <task id="LOCAL-00023" summary="2022-08-17 Routers 생성">
+      <created>1660676152541</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1660676152541</updated>
+    </task>
+    <task id="LOCAL-00024" summary="2022-08-17 로그인 여부 확인 로직 구현, 정상 로그인 후 페이지 이동 처리 구현">
+      <created>1660676211606</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1660676211606</updated>
+    </task>
+    <task id="LOCAL-00025" summary="2022-08-17 로그인, 회원가입 페이지 경로 수정">
+      <created>1660676339488</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1660676339488</updated>
+    </task>
+    <task id="LOCAL-00026" summary="2022-08-17 토큰 존재, 로그인 성공시 루트 경로로 이동">
+      <created>1660676381987</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1660676381988</updated>
+    </task>
+    <task id="LOCAL-00027" summary="2022-08-17 주석 추가">
+      <created>1660676467832</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1660676467832</updated>
+    </task>
+    <task id="LOCAL-00028" summary="2022-08-19 함수형 선언을 HOOK 선언으로 변경, Login을 Auth로 변경">
+      <created>1660855728360</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1660855728360</updated>
+    </task>
+    <task id="LOCAL-00029" summary="2022-08-19 커스텀 부트스트랩 css 생성">
+      <created>1660855752880</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1660855752880</updated>
+    </task>
+    <task id="LOCAL-00030" summary="2022-08-19 기본 목록 페이지 추가">
+      <created>1660855762642</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1660855762642</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -217,13 +314,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="2022-08-09&#10;&#10;create-react-app 을 이용해서 react Project 생성" />
-    <MESSAGE value="2022-08-09&#10;&#10;create-react-app 을 이용해서 react Project 생성&#10;-&gt; npx create-react-app my-app --template typescript 명령으로 생성 변경" />
-    <MESSAGE value="2022-08-09&#10;&#10;npx create-react-app my-app --template typescript 명령으로 타임스크립스 사용 React 프로젝트 생성" />
-    <MESSAGE value="2022-08-09&#10;&#10;App.test.tsx 제거" />
-    <MESSAGE value="2022-08-12&#10;&#10;package.json 간단하게 변경 및 babel 설치" />
-    <MESSAGE value="2022-08-12&#10;&#10;로그인 페이지 디자인 구현" />
-    <MESSAGE value="2022-08-12&#10;&#10;로그인 페이지 화면 구성 완료" />
     <MESSAGE value="2022-08-12&#10;&#10;ReadMe.md 수정" />
     <MESSAGE value="2022-08-17&#10;&#10;1. login validation 구현&#10;2. toast 이용하여 validation 실행 후 잘못되면 메시지 표기" />
     <MESSAGE value="2022-08-17&#10;&#10;1. consts README.md 추가" />
@@ -235,6 +325,20 @@
     <MESSAGE value="2022-08-17 Project Axios 클라이언트 생성 Util 추가" />
     <MESSAGE value="2022-08-17 Auth 비즈니스 로직 추가" />
     <MESSAGE value="2022-08-17 로그인 구현" />
-    <option name="LAST_COMMIT_MESSAGE" value="2022-08-17 로그인 구현" />
+    <MESSAGE value="2022-08-17 로그인, 회원가입 구현 -&gt; Login으로 시작한 파일 명을 Auth 로 변경" />
+    <MESSAGE value="2022-08-17 정상 로그인 완료 후 token 데이터 localStorage에 셋팅" />
+    <MESSAGE value="2022-08-17 교육 일정, 페이지 삭제 -&gt; TODO 로 변경" />
+    <MESSAGE value="2022-08-17 react-router-dom 설치" />
+    <MESSAGE value="2022-08-17 react-router-dom 셋팅" />
+    <MESSAGE value="2022-08-17 Routers 생성" />
+    <MESSAGE value="2022-08-17 로그인 여부 확인 로직 구현, 정상 로그인 후 페이지 이동 처리 구현" />
+    <MESSAGE value="2022-08-17 로그인, 회원가입 페이지 경로 수정" />
+    <MESSAGE value="2022-08-17 토큰 존재, 로그인 성공시 루트 경로로 이동" />
+    <MESSAGE value="2022-08-17 주석 추가" />
+    <MESSAGE value="2022-08-19 함수형 선언을 HOOK 선언으로 변경, Login을 Auth로 변경" />
+    <MESSAGE value="2022-08-19 커스텀 부트스트랩 css 생성" />
+    <MESSAGE value="2022-08-19 기본 목록 페이지 추가" />
+    <MESSAGE value="2022-08-19 Todo 페이지 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="2022-08-19 Todo 페이지 추가" />
   </component>
 </project>
