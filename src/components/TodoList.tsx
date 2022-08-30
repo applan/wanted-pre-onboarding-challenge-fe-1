@@ -12,7 +12,7 @@ export const TodoList = () => {
     }
 
     return (
-        <div className="col-5 col-sm-3 h-100">
+        <div className="col-5 col-sm-3">
             <Card>
                 <Card.Img variant="top" src={sideImage}/>
                 <Card.Header className="border-top">My TODO_LIST</Card.Header>

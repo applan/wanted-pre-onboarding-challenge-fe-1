@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from "react";
-import {Button, Form} from "react-bootstrap";
+import {Card, Button, Form} from "react-bootstrap";
 
 export const TodoForm = (props: { userState: string; }) => {
 
@@ -28,18 +28,25 @@ export const TodoForm = (props: { userState: string; }) => {
     }
 
     return (
-        <div className="col-7 col-sm-9 h-100 border rounded-sm" >
-            <Form.Group className="mb-2 mt-3">
-                <Form.Label>제목</Form.Label>
-                <Form.Control placeholder="Disabled input" />
-            </Form.Group>
-            <Form.Group className="mb-2" controlId="exampleForm.ControlTextarea1">
-                <Form.Label>내용</Form.Label>
-                <Form.Control className="resize-none" as="textarea" rows={19}/>
-            </Form.Group>
-            <div className="w-100 text-end">
-                {props.userState == "ADD" ? addBtnGroup() : updBtnGroup()}
-            </div>
+        <div className="col-7 col-sm-9">
+            <Card>
+                <Card.Header>
+                    {props.userState == "ADD" ? "TODO 추가" : "TODO 수정"}
+                </Card.Header>
+                <Card.Body>
+                    <Form.Group className="mb-2 mt-3">
+                        <Form.Label>제목</Form.Label>
+                        <Form.Control placeholder="제목을 입력하세요" />
+                    </Form.Group>
+                    <Form.Group className="mb-2" controlId="exampleForm.ControlTextarea1">
+                        <Form.Label>내용</Form.Label>
+                        <Form.Control className="resize-none" as="textarea" placeholder="내용을 입력하세요" rows={19}/>
+                    </Form.Group>
+                    <div className="w-100 text-end">
+                        {props.userState == "ADD" ? addBtnGroup() : updBtnGroup()}
+                    </div>
+                </Card.Body>
+            </Card>
         </div>
     );
 }

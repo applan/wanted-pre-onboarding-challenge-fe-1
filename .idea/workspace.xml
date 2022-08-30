@@ -4,14 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c5785d06-a799-486b-a020-6eb8ecfac168" name="Changes" comment="2022-08-19 Todo 페이지 추가">
-      <change afterPath="$PROJECT_DIR$/src/images/myProfile.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/todo/Todo.tsx" afterDir="false" />
+    <list default="true" id="c5785d06-a799-486b-a020-6eb8ecfac168" name="Changes" comment="2022-08-22 Todo 데이터를 위한 Type 선언">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/TodoForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TodoForm.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/TodoList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TodoList.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/todo/Todo.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/todo/Todo.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,8 +20,8 @@
       <list>
         <option value="JavaScript File" />
         <option value="TypeScript File" />
-        <option value="TypeScript JSX File" />
         <option value="CSS File" />
+        <option value="TypeScript JSX File" />
       </list>
     </option>
   </component>
@@ -42,22 +39,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/Dev/Self/WS/wanted-pre-onboarding-challenge-fe-1/src/images",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "ts.external.directory.path": "D:\\Dev\\Self\\WS\\wanted-pre-onboarding-challenge-fe-1\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Dev/Self/WS/wanted-pre-onboarding-challenge-fe-1/src/images&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;D:\\Dev\\Self\\WS\\wanted-pre-onboarding-challenge-fe-1\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Dev\Self\WS\wanted-pre-onboarding-challenge-fe-1\src\images" />
@@ -84,7 +81,10 @@
       <workItem from="1660282156110" duration="26463000" />
       <workItem from="1660580881385" duration="595000" />
       <workItem from="1660656181772" duration="18119000" />
-      <workItem from="1660836632450" duration="12644000" />
+      <workItem from="1660836632450" duration="13107000" />
+      <workItem from="1660897078231" duration="3334000" />
+      <workItem from="1661095010258" duration="2739000" />
+      <workItem from="1661846739144" duration="1097000" />
     </task>
     <task id="LOCAL-00001" summary="2022-08-09&#10;&#10;create-react-app 을 이용해서 react Project 생성">
       <created>1660055342712</created>
@@ -296,7 +296,56 @@
       <option name="project" value="LOCAL" />
       <updated>1660855762642</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="2022-08-19 Todo 페이지 추가">
+      <created>1660855822642</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1660855822642</updated>
+    </task>
+    <task id="LOCAL-00032" summary="2022-08-19">
+      <created>1660855832874</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1660855832874</updated>
+    </task>
+    <task id="LOCAL-00033" summary="2022-08-22 README.md 수정">
+      <created>1661097567402</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1661097567402</updated>
+    </task>
+    <task id="LOCAL-00034" summary="2022-08-22 TodoListBox CSS 최대 높이 값 변경 -&gt; 추후 반응형으로 변경 필요">
+      <created>1661097605152</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1661097605152</updated>
+    </task>
+    <task id="LOCAL-00035" summary="2022-08-22 TodoList, TodoForm 컴포넌트로 변경, TodoList useState 추가">
+      <created>1661097662153</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1661097662153</updated>
+    </task>
+    <task id="LOCAL-00036" summary="2022-08-22 TodoList, TodoForm 컴포넌트로 분리">
+      <created>1661097693611</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1661097693611</updated>
+    </task>
+    <task id="LOCAL-00037" summary="2022-08-22 Todo 데이터를 위한 Type 선언">
+      <created>1661097709210</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1661097709210</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -314,12 +363,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="2022-08-12&#10;&#10;ReadMe.md 수정" />
-    <MESSAGE value="2022-08-17&#10;&#10;1. login validation 구현&#10;2. toast 이용하여 validation 실행 후 잘못되면 메시지 표기" />
-    <MESSAGE value="2022-08-17&#10;&#10;1. consts README.md 추가" />
-    <MESSAGE value="2022-08-17&#10;&#10;Consts.tsx - 주석 추가&#10;Login.tsx - LoginForm 분리 &#10;LoginForm.tsx - LoginForm 컴포넌트 분리&#10;Validation.tsx - 주석 정리 및 유효성 결과 return" />
-    <MESSAGE value="2022-08-17 API_URL 추가" />
-    <MESSAGE value="2022-08-17 axios 추가" />
     <MESSAGE value="2022-08-17" />
     <MESSAGE value="2022-08-17 toastify, axios 패키지 설치 추가 및 각 홈페이지 추가" />
     <MESSAGE value="2022-08-17 Project Axios 클라이언트 생성 Util 추가" />
@@ -339,6 +382,12 @@
     <MESSAGE value="2022-08-19 커스텀 부트스트랩 css 생성" />
     <MESSAGE value="2022-08-19 기본 목록 페이지 추가" />
     <MESSAGE value="2022-08-19 Todo 페이지 추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="2022-08-19 Todo 페이지 추가" />
+    <MESSAGE value="2022-08-19" />
+    <MESSAGE value="2022-08-22 README.md 수정" />
+    <MESSAGE value="2022-08-22 TodoListBox CSS 최대 높이 값 변경 -&gt; 추후 반응형으로 변경 필요" />
+    <MESSAGE value="2022-08-22 TodoList, TodoForm 컴포넌트로 변경, TodoList useState 추가" />
+    <MESSAGE value="2022-08-22 TodoList, TodoForm 컴포넌트로 분리" />
+    <MESSAGE value="2022-08-22 Todo 데이터를 위한 Type 선언" />
+    <option name="LAST_COMMIT_MESSAGE" value="2022-08-22 Todo 데이터를 위한 Type 선언" />
   </component>
 </project>

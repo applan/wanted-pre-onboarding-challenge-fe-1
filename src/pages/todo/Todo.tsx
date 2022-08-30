@@ -46,9 +46,13 @@ export const Todo = () => {
                         </Nav>
                     </Container>
                 </Navbar>
-                <div className="row h-80 w-100">
-                    <TodoList/>
-                    <TodoForm userState={userState}/>
+                <div>
+                    <div className="container">
+                        <div className="row">
+                            <TodoList/>
+                            <TodoForm userState={userState}/>
+                        </div>
+                    </div>
                 </div>
             </main>
         </section>
